@@ -13,11 +13,21 @@ public class Car {
         this.engineVolume = engineVolume;
     }
 
-    public String getRegNumber()     { return regNumber; }
-    public String getMake()          { return make; }
-    public String getModel()         { return model; }
-    public int getRegistrationYear() { return registrationYear; }
-    public double getEngineVolume()  { return engineVolume; }
+    public String getRegNumber() {
+        return regNumber;
+    }
+    public String getMake() {
+        return make;
+    }
+    public String getModel() {
+        return model;
+    }
+    public int getRegistrationYear() {
+        return registrationYear;
+    }
+    public double getEngineVolume() {
+        return engineVolume;
+    }
 
     @Override
     public String toString() {
